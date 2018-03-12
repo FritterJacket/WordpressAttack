@@ -6,10 +6,17 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1. Vulnerability Name or ID
-  - [ ] Summary: Basic XXS vulnerability in Comment section of any page 
+1. XXS in Comments
+  - [ ] Summary: Any js command will execute when put into the Comment section of any page 
     https://www.youtube.com/watch?v=UD-iwqphWlk 
   - [ ] GIF Walkthrough: 
+  - [ ] Steps to recreate: Just open up the wordpress website and input javascript commands into a comment. Once the comment is posted it will execute
+1. (Required) Vulnerability Name or ID
+  - [ ] Summary: 
+    - Vulnerability types:
+    - Tested in version:
+    - Fixed in version: 
+  - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
@@ -19,16 +26,7 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    
 
 ## Assets
 
