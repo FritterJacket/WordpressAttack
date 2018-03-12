@@ -11,6 +11,8 @@ Time spent: **X** hours spent in total
     https://www.youtube.com/watch?v=UD-iwqphWlk 
   - [ ] GIF Walkthrough:https://github.com/FritterJacket/WordpressAttack/blob/master/GIF%20of%20XSS.gif 
   - [ ] Steps to recreate: Just open up the wordpress website and input javascript commands into a comment. Once the comment is posted it will execute
+  - [ ] Screenshots: https://github.com/FritterJacket/WordpressAttack/blob/master/XSS.PNG
+                     https://github.com/FritterJacket/WordpressAttack/blob/master/XSSinComments.PNG
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
