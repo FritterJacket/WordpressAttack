@@ -9,7 +9,7 @@ Time spent: **X** hours spent in total
 1. XXS in Comments
   - [ ] Summary: Any js command will execute when put into the Comment section of any page 
     https://www.youtube.com/watch?v=UD-iwqphWlk 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:https://github.com/FritterJacket/WordpressAttack/blob/master/GIF%20of%20XSS.gif 
   - [ ] Steps to recreate: Just open up the wordpress website and input javascript commands into a comment. Once the comment is posted it will execute
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
