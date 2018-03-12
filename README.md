@@ -6,7 +6,7 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1. XXS in Comments
+1. XSS in Comments
   - [ ] Summary: Any js command will execute when put into the Comment section of any page 
     https://www.youtube.com/watch?v=UD-iwqphWlk 
   - [ ] GIF Walkthrough:https://github.com/FritterJacket/WordpressAttack/blob/master/GIF%20of%20XSS.gif 
