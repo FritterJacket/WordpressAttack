@@ -15,11 +15,11 @@ Time spent: 20 hours spent in total
                      https://github.com/FritterJacket/WordpressAttack/blob/master/XSSinComments.PNG
 2. Authenticated Cross-Site Scripting (XSS) via Media File Metadata*
   - [ ] Summary: JavaScript code can be put in an mp3 file and uploaded to the website. When the site attempts to play the mp3 file, it will execute the code instead.
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: https://github.com/FritterJacket/WordpressAttack/blob/master/GIF%20of%20MediaFiles.gif
   - [ ] Steps to recreate: Create a text file that includes a javascript script that exexcutes the commands you want. Then save that file as an mp3 file. Edit a post on the site and add the mp3 file as a media element. When the mp3 attempts to play, it will execute the script.
 3. Authenticated Shortcode Tags Cross-Site Scripting (XSS)*
   - [ ] Summary: JavaScript scripts can be put in the title of a post. The script will be executed when it's conditions are met 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: https://github.com/FritterJacket/WordpressAttack/blob/master/GIF%20of%20PostTitle.gif
   - [ ] Steps to recreate: Create a new post. Set the title as some kind of javascript script. Wait for it to execute.
     
 
