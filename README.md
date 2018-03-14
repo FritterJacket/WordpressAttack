@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 20 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
@@ -13,21 +13,14 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Just open up the wordpress website and input javascript commands into a comment. Once the comment is posted it will execute
   - [ ] Screenshots: https://github.com/FritterJacket/WordpressAttack/blob/master/XSS.PNG
                      https://github.com/FritterJacket/WordpressAttack/blob/master/XSSinComments.PNG
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+2. Authenticated Cross-Site Scripting (XSS) via Media File Metadata*
+  - [ ] Summary: JavaScript code can be put in an mp3 file and uploaded to the website. When the site attempts to play the mp3 file, it will execute the code instead.
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+  - [ ] Steps to recreate: Create a text file that includes a javascript script that exexcutes the commands you want. Then save that file as an mp3 file. Edit a post on the site and add the mp3 file as a media element. When the mp3 attempts to play, it will execute the script.
+3. Authenticated Shortcode Tags Cross-Site Scripting (XSS)*
+  - [ ] Summary: JavaScript scripts can be put in the title of a post. The script will be executed when it's conditions are met 
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [ ] Steps to recreate: Create a new post. Set the title as some kind of javascript script. Wait for it to execute.
     
 
 ## Assets
@@ -42,7 +35,7 @@ Time spent: **X** hours spent in total
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
+  *I was not able to get either 2 or 3 to function on my machine. I was working with other students in this class and we got these exploits to work on theirs but couldn't figure out why it would work on mine. I included descriptions of each one and how to duplicate as well as a GIF of me attempting and failing to get it to execute.
 
 
 ## License
